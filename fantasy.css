@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-image:   linear-gradient(green, lightblue, lime);
+    color:black;
+    text-align: center;;
+}
+
+h1{
+    text-align: center;
+}
+#container{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#player_offer, #offerPack{
+    display: flex;
+    flex-basis: 100%;
+}
+
+#yourPlayer{
+    display: flex;
+    flex-basis: 100%;
+    max-height: 300px;
+
+}
+
+#player_offer *, #offerPack *{
+    margin-left: 10px;
+}
+
+
+#player, #pack{
+    display: flex;
+    flex-basis: 100%;
+    
+
+}
+
+#player *, #pack *{
+    flex-basis: 100%;
+    max-height: 300px;
+}
+button{
+    text-align: center;
+    align-self: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding:70px;
+    background-image: url("./foot.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: larger;
+}
